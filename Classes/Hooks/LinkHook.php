@@ -25,7 +25,7 @@ class LinkHook
 
     public function run(array &$params)
     {
-        $relAttribute = 'noopener noreferrer';
+        $relAttribute = 'noopener';
         $target = $params['tagAttributes']['target'];
         $url = $params['finalTagParts']['url'];
 
